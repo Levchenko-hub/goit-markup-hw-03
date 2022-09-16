@@ -17,33 +17,40 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+  <!-- сторінка -->
   <body class="page">
-    <div class="container">
-      <header class="header">
-        <nav class="site-nav">
-          <a class="link logo" href="./index.html"><span class="accent">Web</span>Studio</a>
-          <ul class="list">
-            <li>
-              <a class="link page current" href="./index.html">Студія</a>
-            </li>
-            <li>
-              <a class="link page" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li>
-              <a class="link page" href="">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="list contact-list">
+    <!-- контейнер -->
+    <header class="header">
+      <!-- контейнер -->
+      <div class="container">
+      <!-- навігація сторінки -->
+      <nav class="site-nav">
+        <!-- logo -->
+        <a class="link-logo" href="./index.html"><span class="accent">Web</span>Studio</a>
+        <!-- лінки навігації -->
+        <ul class="header-list">
           <li>
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-link" href="./index.html">Студія</a>
           </li>
           <li>
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-link-current" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li>
+            <a class="header-link" href="">Контакти</a>
           </li>
         </ul>
-      </header>
+      </nav>
+      <!-- інфо посилання -->
+      <ul class="header-list">
+        <li>
+          <a class="link-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a class="link-info" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </div>
+    </header>
 
     <div class="container">
       <main class="main">
@@ -60,6 +67,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-notebook.jpg"
                   alt="Приклад роботи студії під назвою Технокряк"
                   width="370"
@@ -71,6 +79,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img" 
                   src="./img/card-basket.jpg"
                   alt="Приклад роботи студії під назвою Постер New Orlean vs Golden Star"
                   width="370"
@@ -82,6 +91,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-seafood.jpg"
                   alt="Приклад роботи студії під назвою Ресторан Seafood"
                   width="370"
@@ -93,6 +103,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-headphone.jpg"
                   alt="Приклад роботи студії під назвою Проєкт Prime"
                   width="370"
@@ -104,6 +115,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-boxes.jpg"
                   alt="Приклад роботи студії під назвою Проєкт Boxes"
                   width="370"
@@ -115,6 +127,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-mac.jpg"
                   alt="Приклад роботи студії під назвою Inspiration has no Borders"
                   width="370"
@@ -126,6 +139,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-magazine.jpg"
                   alt="Приклад роботи студії під назвою Видання Limited Edition"
                   width="370"
@@ -137,6 +151,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-lab.jpg"
                   alt="Приклад роботи студії під назвою Проєкт LAB"
                   width="370"
@@ -148,6 +163,7 @@
             <li class="portfolio-card">
               <a class="link" href="">
                 <img
+                  class="img"
                   src="./img/card-buisness.jpg"
                   alt="Приклад роботи студії під назвою Growing Business"
                   width="370"
@@ -162,27 +178,25 @@
     </div>
 
     <!-- Site footer -->
-    <div class="container">
-      <footer class="footer">
-        <!-- Web-studio Logo -->
-        <a class="link logo" href="./index.html"><span class="accent">Web</span>Studio</a>
-        <!-- Web-studio contacts -->
-        <address class="contacts">
-          <ul class="list">
-            <li>
-              <a class="link gmaps" href="https://goo.gl/maps/LqEMvfZFrGtLSNi77" target="_blank"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li>
-              <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-      </footer>
-    </div>
+    <footer class="footer">
+      <div class="container">
+          <!-- Web-studio Logo -->
+          <a class="link logo" href="./index.html"><span class="accent">Web</span>Studio</a>
+          <!-- Web-studio contacts -->
+          <address class="contacts">
+            <ul class="footer-list list">
+              <li class="item">
+                <a class="link gmaps" href="https://goo.gl/maps/LqEMvfZFrGtLSNi77" target="_blank">м. Київ, пр-т Лесі Українки, 26
+                  </a>
+              </li>
+              <li class="item">
+                <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="item">
+                <a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+          </div>
   </body>
 </html>
